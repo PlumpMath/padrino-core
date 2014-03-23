@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<title>Amsterdam - premium responsive admin template by Eugene Kopyov</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<!--[if IE]> <link href="css/ie.css" rel="stylesheet" type="text/css"> <![endif]-->
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery_ui_custom.js"></script>
+
+<script type="text/javascript" src="js/plugins/charts/excanvas.min.js"></script>
+<script type="text/javascript" src="js/plugins/charts/jquery.sparkline.min.js"></script>
+
+<script type="text/javascript" src="js/plugins/forms/jquery.tagsinput.min.js"></script>
+<script type="text/javascript" src="js/plugins/forms/jquery.inputlimiter.min.js"></script>
+<script type="text/javascript" src="js/plugins/forms/jquery.maskedinput.min.js"></script>
+<script type="text/javascript" src="js/plugins/forms/jquery.autosize.js"></script>
+<script type="text/javascript" src="js/plugins/forms/jquery.ibutton.js"></script>
+<script type="text/javascript" src="js/plugins/forms/jquery.dualListBox.js"></script>
+<script type="text/javascript" src="js/plugins/forms/jquery.validate.js"></script>
+<script type="text/javascript" src="js/plugins/forms/jquery.uniform.min.js"></script>
+<script type="text/javascript" src="js/plugins/forms/jquery.select2.min.js"></script>
+<script type="text/javascript" src="js/plugins/forms/jquery.cleditor.js"></script>
+
+<script type="text/javascript" src="js/plugins/uploader/plupload.js"></script>
+<script type="text/javascript" src="js/plugins/uploader/plupload.html4.js"></script>
+<script type="text/javascript" src="js/plugins/uploader/plupload.html5.js"></script>
+<script type="text/javascript" src="js/plugins/uploader/jquery.plupload.queue.js"></script>
+
+<script type="text/javascript" src="js/plugins/wizard/jquery.form.wizard.js"></script>
+<script type="text/javascript" src="js/plugins/wizard/jquery.form.js"></script>
+
+<script type="text/javascript" src="js/plugins/ui/jquery.collapsible.min.js"></script>
+<script type="text/javascript" src="js/plugins/ui/jquery.timepicker.min.js"></script>
+<script type="text/javascript" src="js/plugins/ui/jquery.jgrowl.min.js"></script>
+<script type="text/javascript" src="js/plugins/ui/jquery.pie.chart.js"></script>
+<script type="text/javascript" src="js/plugins/ui/jquery.fullcalendar.min.js"></script>
+<script type="text/javascript" src="js/plugins/ui/jquery.elfinder.js"></script>
+<script type="text/javascript" src="js/plugins/ui/jquery.fancybox.js"></script>
+
+<script type="text/javascript" src="js/plugins/tables/jquery.dataTables.min.js"></script>
+
+<script type="text/javascript" src="js/plugins/bootstrap/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/plugins/bootstrap/bootstrap-bootbox.min.js"></script>
+<script type="text/javascript" src="js/plugins/bootstrap/bootstrap-progressbar.js"></script>
+<script type="text/javascript" src="js/plugins/bootstrap/bootstrap-colorpicker.js"></script>
+
+<script type="text/javascript" src="js/functions/custom.js"></script>
+
+</head>
+
+<body>
+
+<!-- Top nav -->
+<div id="top">
+    <div class="top-wrapper">
+        <a href="index.html" title=""><img src="images/logo.png" class="logo" alt="" /></a>
+        <ul class="topnav">
+            <li class="topuser">
+                <a title="" data-toggle="dropdown"><img src="images/user.png" alt="" /><span>Eugene Kopyov</span><i class="caret"></i></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#" title=""><span class="user-profile"></span>My profile</a></li>
+                    <li><a href="#" title=""><span class="user-stats"></span>Statistics <strong>2</strong></a></li>
+                    <li><a href="#" title=""><span class="user-settings"></span>Switch user</a></li>
+                    <li><a href="#" title=""><span class="user-logout"></span>Logout</a></li>
+                </ul>
+            </li>
+            <li><a href="#" title=""><b class="settings"></b></a></li>
+            <li><a href="#" title=""><b class="mail"></b></a></li>
+            <li class="search">
+                <a title=""><b class="search"></b></a>
+                <form class="top-search" action="#">
+                    <input type="text" placeholder="Search..." />
+                    <input type="submit" value="" />
+                </form>
+            </li>
+            <li class="sidebar-button"><a href="#" title=""><b class="responsive-nav"></b></a></li>
+            <li><a href="#" title=""><b class="logout"></b></a></li>
+        </ul>
+    </div>
+</div>
+<!-- /top nav -->
+
+<!-- Hidden sidebar -->
+<div class="wrapper">
+
+    <!-- Left sidebar -->
+    <div class="sidebar hidden">
+        <ul class="navigation"><!-- standard nav -->
+            <li><a href="index.html" title=""><span class="menu-dashboard"></span>Dashboard</a></li>
+            <li><a href="#" title="" class="expand"><span class="menu-forms"></span>Form elements<strong>3</strong></a>
+                <ul>
+                    <li><a href="forms.html" title="">Main elements</a></li>
+                    <li><a href="form_wizards.html" title="">Wizards</a></li>
+                    <li><a href="form_grid.html" title="">Inputs grid</a></li>
+                </ul>
+            </li>
+            <li><a href="#" title="" class="expand"><span class="menu-components"></span>Components<strong>4</strong></a>
+                <ul>
+                    <li><a href="content_components.html" title="">Content components</a></li>
+                    <li><a href="bootstrap_components.html" title="">Bootstrap components</a></li>
+                    <li><a href="gallery.html" title="">Gallery &amp; thumbs</a></li>
+                    <li><a href="content_grid.html" title="">Content grid</a></li>
+                </ul>
+            </li>
+            <li><a href="buttons.html" title=""><span class="menu-icons"></span>Icons &amp; buttons</a></li>
+            <li><a href="charts.html" title=""><span class="menu-charts"></span>Charts &amp; graphs</a></li>
+            <li><a href="messages.html" title=""><span class="menu-messages"></span>Messages</a></li>
+            <li><a href="tables.html" title=""><span class="menu-tables"></span>Tables</a></li>
+            <li class="active"><a href="#" title="" class="expand" id="current"><span class="menu-errors"></span>Error pages<strong>6</strong></a>
+                <ul>
+                    <li><a href="403.html" title="">403 page</a></li>
+                    <li><a href="404.html" title="">404 page</a></li>
+                    <li><a href="405.html" title="">405 page</a></li>
+                    <li><a href="500.html" title="">500 page</a></li>
+                    <li class="current"><a href="503.html" title="">503 page</a></li>
+                    <li><a href="offline.html" title="">Offline page</a></li>
+                </ul>
+            </li>
+            <li><a href="typography.html" title=""><span class="menu-typo"></span>Typography</a></li>
+            <li><a href="calendar.html" title=""><span class="menu-calendar"></span>Calendar</a></li>
+            <li><a href="file_manipulation.html" title=""><span class="menu-files"></span>File manipulation</a></li>
+            <li><a href="#" title="" class="expand"><span class="menu-layouts"></span>Page layouts<strong>3</strong></a>
+                <ul>
+                    <li><a href="2_columns.html" title="">2 columns</a></li>
+                    <li><a href="3_columns.html" title="">3 columns</a></li>
+                    <li><a href="tabbed_page.html" title="">Tabbed page</a></li>
+                </ul>
+            </li>
+        </ul><!-- /standard nav -->
+    </div>
+    <!-- /left sidebar -->
+
+</div>
+<!-- /hidden sidebar -->
+
+
+<!-- Main wrapper -->
+<div class="error-page">
+    <span class="reason">503</span>
+	<div class="error-content">
+        <span class="reason-title">Oops, an error has occurred. Service unavailable!</span>
+        <form action="#" class="side-search">
+            <input type="text" value="" placeholder="Search..." />
+            <input type="submit" value="" name="submit" />
+        </form>
+        <div class="row-fluid error-buttons">
+            <a href="index.html" title="" class="btn btn-info span6">Back to dashboard</a>
+            <a href="index.html" title="" class="btn btn-warning span6">Back to the website</a>
+        </div>
+    </div>
+</div>  
+<!-- /main wrapper -->
+
+</body>
+</html>
